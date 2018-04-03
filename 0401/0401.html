@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang = "ko">
+<head>
+<meta charset="UTF-8">
+<title>Regina</title>
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Cabin');
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.wrap {
+		background-color: white;
+	}
+
+	/*header*/
+
+	.header_wrap {
+		padding-left: 180px;
+		padding-right: 180px;
+		padding-top: 20px;
+		font-family: 'Cabin', sans-serif;
+		font-size: 10pt;
+	}
+
+	.logo, .menu_content {
+		float: left;
+	}
+
+	.logo {
+		width: 80px;
+		height: auto;
+	}
+
+	.menu {
+		float: right;
+		width: 350px;
+	}
+
+	.menu_content {
+		width: 300px;
+		height: 40px;
+		float: right;
+		opacity: 0.6;
+		font-weight: 600;
+		padding-top: 15px;
+	}
+
+	.about, .team, .work, .blog, .contact {
+		float: left;
+		margin-left: 25px;
+	}
+
+	.header_text {
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	.header_text1 {
+		font-weight: 300;
+	}
+
+	.header_text2 {
+		font-weight: 700;
+	}
+	.
+
+	/* Main */
+
+	.clearbot:after {
+		clear: both;
+	}
+
+	.main_wrap {
+		background-color: white;
+		width: 100%;
+		height: 1000px;
+		margin-bottom: 500px;
+	}
+
+	.main_image{
+		padding-left: 180px;
+		padding-right: 180px;
+		margin-top: 100px;
+		background-color: white;
+
+	}
+
+	.image1  {
+		width: 520px;
+		height: 347px;
+	}
+
+	.image2 {
+		width: 520px;
+		height: 347px;
+	}
+
+	.image3 {
+		width: 1079px;
+		height: 538px;
+		margin-top: -40px;
+	}
+
+	.subject {
+		color: white;
+		font-size: 30pt;
+		position: relative;
+		z-index: 2;
+		font-family: 'Cabin', sans-serif;
+	}
+
+	.explain {
+		color: #E1E1E1;
+		opacity: 0.8;
+		font-size: 12pt;
+		position: relative;
+		z-index: 2;
+		font-family: 'Cabin', sans-serif;
+	}
+
+	.image1_wrap {
+		width: 520px;
+		height: 374px;
+		float: left;
+		background-image: url(image1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.image1_subject {
+		left: 60px;
+		top: 250px;
+	}
+
+	.image1_explain {
+		left: 60px;
+		top: 250px;
+	}
+
+	.image2_wrap {
+		width: 520px;
+		height: 374px;
+		float: right;
+		background-image: url(image2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.image2_subject {
+		left: 60px;
+		top: 250px;
+	}
+
+	.image2_explain {
+		left: 60px;
+		top: 250px;
+	}
+
+	.image3_wrap {
+		width: 1079px;
+		height: 538px;
+		float: left;
+		margin-top: 30px;
+		background-image: url(image3.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.image3_subject {
+		left: 60px;
+		top: 450px;
+	}
+
+	.image3_explain {
+		left: 60px;
+		top: 450px;
+	}
+
+
+	/* Footer */
+
+
+	.footer_wrap {
+		width: 100%;
+		text-align: center;
+		z-index: -4;
+		font-family: 'Cabin', sans-serif;
+		position: fixed;
+		bottom: 150px;
+	}
+
+	.footer_text1 {
+		font-size: 10pt;
+		color: #E4E4E4;
+	}
+
+	.footer_text2 {
+		font-size: 30pt;
+	}
+
+
+
+
+
+	.footer_c {
+		font-size: 10pt;
+		color: #E4E4E4;
+	}
+
+
+	</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+
+
+
+	</script>
+</head>
+
+<body>
+
+<div class="wrap">
+	<header>
+		<div class="header_wrap clearfix">
+			<img src="logo.png" alt="logo" class="logo" id="logo">
+			<div class="menu">
+				<div class="menu_content clearfix">
+					<div class="about">About</div>
+					<div class="team">Team</div>
+					<div class="work">Work</div>
+					<div class="blog">Blog</div>
+					<div class="contact">Contact</div>
+				</div>
+			</div>
+			<br><br><br><br><br>
+			<div class="header_text">
+			<span class="header_text1" style="font-size: 60pt; margin-top: 200px;">We Create Brands.</span><br><br>
+			<span class="header_text2" style="font-size: 10pt; margin-top: -50px">More our team ➡</span>
+			</div>
+		</div>
+	</header>
+
+
+	<main>
+		<div class="main_wrap">
+			<div class="main_image">
+				<div class="image1_wrap">
+					<span class="image1_subject subject">iWatch Design</span><br>
+					<span class="image1_explain explain">Art direction, Branding</span>
+					<!--<img src="image1.png" alt="image1" class="image1">-->
+				</div>
+				<div class="image2_wrap">
+					<span class="image2_subject subject">Cup Filo</span><br>
+					<span class="image2_explain explain">UX design, Photoshop Mockup</span>
+					<!--<img src="image2.png" alt="image2" class="image2">-->
+				</div>
+				<div class="image3_wrap">
+					<span class="image3_subject subject">Foodie Design</span><br>
+					<span class="image3_explain explain">Web design, Marketing</span>
+					<!--<img src="image3.png" alt="image3" class="image3">-->
+				</div>
+			</div>
+
+		</div>
+
+
+	</main>
+
+</div>
+
+
+
+
+
+
+
+
+		<!--<div class="forSpace">
+
+		</div>-->
+	<footer>
+		<div class="footer_wrap">
+			<span class="footer_text1">We provide a full range of digital services.</span><br><br><br>
+			<span class="footer_text2">Are You Ready? <a href="#logo">Let’s Work!</a></span>
+			<div class="footer_icons clearfix">
+
+
+				<br><br><span class="footer_c">© 2017 Regina - Creative Agency HTML Template</span>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+</body>
+</html>
